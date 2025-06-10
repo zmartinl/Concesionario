@@ -1,0 +1,50 @@
+#infoTable tr th{
+    text-align: center;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    border: 1px solid #dee2e688;
+}
+
+.custom-select{
+    background-color: #afb0b179;
+    color: var(--midnightBlue);
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+.custom-table input {
+    background-color: #afb0b179;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #dee2e600;
+}
+
+.custom-table thead tr {
+    background-color: #f8f9fa;
+}
+
+.custom-table input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.active>.page-link, .page-link.active {
+    color: #fff;
+    background-color: var(--midnightBlue);
+    border-color: var(--midnightBlue);
+}
+
+.page-link {
+    color: var(--midnightBlue);
+}
+
+.page-link :hover {
+    color: #fff;
+    background-color: var(--midnightBlue);
+}

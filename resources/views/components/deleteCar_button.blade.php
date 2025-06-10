@@ -1,0 +1,1 @@
+<button class="btn btn-danger btn-sm btn-delete" data-car-id="{{ $car->id }}">Eliminar</button>
